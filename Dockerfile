@@ -1,5 +1,5 @@
 FROM openjdk
-MAINTAINER prakash
+MAINTAINER castrodev
 VOLUME /tmp
 ARG JAR_FILE_NAME
 COPY $JAR_FILE_NAME app.jar
